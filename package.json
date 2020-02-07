@@ -1,0 +1,12 @@
+{
+  "name": "langol",
+  "version": "0.0.0",
+  "description": "A type-safe language library",
+  "main": "dist/indes.js",
+  "author": "Artur Muniz <arturmunizjr+os@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

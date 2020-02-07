@@ -2,7 +2,6 @@ import { InifiteListErr } from './errors'
 
 // unary
 export type Head<Array extends any[]> = Array[0]
-export type Last<Array extends any[]> = Array[Array['length']]
 export type Init<Array extends any[]> = Array['length'] extends 0
   ? []
   : Array['length'] extends 1
@@ -38,6 +37,8 @@ export type Reverse<
 > = ReverseRecur<Array, Prefix>[Array extends [any, ...any[]]
   ? IsFinite<Array, 'nonEmpty', 'infinite'>
   : 'empty']
+
+export type IsList<PossibleArr> = PossibleArr extends any[] ? '1' : '0'
 
 // Binary
 export type Cons<Array extends any[], T> = Array['length'] extends 0

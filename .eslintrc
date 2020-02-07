@@ -1,0 +1,17 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "serviceworker": true
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "standard",
+    "plugin:@typescript-eslint/eslint-recommended"
+  ],
+  "rules": {
+    "no-undef": "off",
+    "no-unused-vars": "off"
+  }
+}

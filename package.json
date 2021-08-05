@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A type-safe language library",
   "main": "dist/indes.js",
-  "author": "Artur Muniz <arturmunizjr+os@gmail.com>",
+  "author": "munizart",
   "license": "MIT",
   "private": false,
   "devDependencies": {
